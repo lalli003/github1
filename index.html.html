@@ -5,70 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .image{
-            float: right;
-            width: 10%;
-            margin-right: 20%;
-margin-inline-end: 5%;        }
-h2{
-    margin-left: 2%;
+        body{
+            background-color: rgb(38, 45, 59);
+        }
+        .container{
+            margin-top: 10%;
+            margin-left: 35%;
+            width: 400px;
+            height:475 px;
+            justify-content: center;
+            text-align: center;
+            border-radius: 5px;
+            color:#fff ;
+            background-color: black;
+        }
+        .container input{
+            color: #fff;
+        }
+        h2{
+width: 300px;
+
 }
+
+
+.cart input{
+    border-radius: 5px;
+    position: relative;
+    margin-top: 15%;
+    width: 90%;
+    padding: 10px 5px 5px;
+background-color: transparent;
+z-index: 10;
+transition: 0.5s;
+font-size: 0.45cm;
+transform: translateY(-34px);
+}
+.password input{
+
+    border-radius: 5px;
+    position: relative;
+    margin-top: 5%;
+    width: 90%;
+    padding: 10px 5px 5px;
+    background-color: transparent;
+    transition: 0.5s;
+    font-size: 0.45cm;
+}
+
+.Email input{
+    border-radius: 5px;
+    position: relative;
+    margin-top: 10%;
+    width: 90%;
+    background-color: transparent;
+    padding: 10px 5px 5px;
+    transition:0.5s ;
+    font-size: 0.45cm;
+}
+.forget{
+    color: #fff;
+}
+
     </style>
+    
 </head>
 <body>
-    <h2><b>Lalitha Bodasingh</b></h2><hr>
-    <div>
-        <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpMPjL8g5MECcvnXGzD8iIMX3-ITEA8Zqgg&usqp=CAU">
-        <ul>
-            <li><b>Phone : 98..xx ..78</b></li><br>
-            <li><b>Email : sathyarishab@gmail.com</b></li><br>
-          <li><b> Address : 74/a viveknagar colony,kukatpallly,hyderabad, 500072
-          </b></li> <br>
-          <li><b>Birthday : 20/3/2002</b></li><br>
-    <hr>
-    <div>
-        <h2><b><u>Career objective</u></b></h2>
-            <p><b>I wanted to seek a rewarding career as a web developer 
-                 in a reputed company where i can apply my knowledge and 
-                 skills to fulfill organization goals.</b>
-        <br>  <hr> </p>
-
+    <div class="container">
+        <form action="" method="get">
+            <fieldset>
+        <h2>Login</h2>
+        <div class="cart">
+            <label for="username" name="username" id="username" ></label>
+            <input type="" placeholder="username" required="required">
+        </div><br>
+        <div class="password">
+            <labei for="password" name="password" id="password"></labei>
+            <input type="password" placeholder="password" required="required"/>
+        </div><br>
+        <div class="Email">
+            <label for="Email" name="email" id="email"></label>
+            <input type="" placeholder="Email" required="required">
+        </div><br><br>
+        <div class="forget"><a href="">forget password?</a></div><br>
+        <button class="button">Login</button><br><br>
+        <div class="sign-up"><a href="">Not a member?</a> <a href=""><span>sign-up</span></a>
+<br><br>
     </div>
-    <div>
-        <h2><b><u>Academic Profile</u></b></h2>
-        <ul>
-            <li><b>Degree (2023) B.sc computer science - Prathibha Degree college , Hyderabad</b></li><br>
-            <li><b>Intermediate MPC (2019) sri chaitanya junioe college,kukatpally</b></li><br>
-            <li><b>SSC (2017)  from state board of secondary education,hyderabad</b></li><br/>
-            <hr>
-        </ul></div>
-        <h2><b><u>Project Work</u></b></h2><br>
-        <b>Title : web page of tourist spots in India</b><br><br>
-        <b>Durtaion :7 days</b><br><br>
-        <b>Project Decription : It explains about the attractive places of India which are mostly visited and its
-             location, view and the beauty.</b><br><br>
-             <hr>
-             <div>
-                <h2><b><u>Skills</u></b></h2>
-                <ul>
-                    <li><b>Confident and determined</b></li><br>
-                    <li><b>Good communication skills</b></li><br>
-                    <li><b>Problem solving abilities</b></li><br>
-                    <li><b>Good team player</b></li>
-                </ul><br><hr>
-             </div>
-       <b><h2><u>Personal Information</u></h2></b><br>
-       <b>Father's Name    : Murarji</b><br><br>
-       <b> Gender : Female  </b><BR><br>
-        <B> Marital status : unmarried</B><br><br>
-        <b> Nationality : Indian</b><br><br>
-        <b> Hobbies : cooking</b><br><hr>
-            
-        
-                </div>
-            
-        </body>
-        </html>
-
-          
-        
+</body>
+</html>
