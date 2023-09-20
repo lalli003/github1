@@ -1,0 +1,13 @@
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: rgb(172, 183, 187);
+}
+button{
+    font-size: 30px;
+    border-radius: 30px;
+    box-shadow: 30px;
+    box-sizing: border-box;
+    
+}
