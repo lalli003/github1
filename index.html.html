@@ -4,10 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background-color: rgb(91, 92, 109);
+    }
+    .b1{
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight:500;
+        margin-top: 2%;
+        margin-left: 3%;
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        color:#614747;
+
+        transition-property: transform;
+        transition-duration: 0.4s;
+        transition: all 0.4s;
+        
+
+
+    }
+    .b1:hover{
+background-color:  rgb(87, 87, 94); 
+color:#fff;   }
+    .p{
+        float: right;
+        height: 40px;
+        width: 80px;
+        font-size: 20px;
+        border-radius: 10px;
+   }
+    .p:hover{
+        background-color:rgb(163, 133, 154) ;
+        color: #0b2e0d;
+        transition-property: transform;
+        transition-duration: 0.4s;
+        transition: all 0.4s;
+        
+
+    }   
+
+        .square {
+            width: 490px;
+    height: 50vh;
+    background-color: rgb(79, 99, 105);
+    margin-left: 40%;
+    margin-top: 5%;
+    box-shadow: 40px;
+    border-radius: 20px;
+    border: 5px solid rgb(146, 159, 161);
+    display: none;
+        }
+        .para{
+            margin-top: 20%;
+            font-size: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+</style>
+
 </head>
 <body>
-    <button type="button" id="colorify">Click me</button>
-    <script src="index.js"></script>
+    <button id="btn1" class="b1" onclick="document.getElementById('demo').style.display ='block'" >Click me</button>
+
+    <div class="square" id="demo">
+        <button id="count" class="p" onclick='document.getElementById("demo").style.display = "none" ;
+        '>Close </button>
+         <p class="para">Hello<br>There is walk-in drive jobs
+            <br>for freshers, come visit the link for login.</p>
+        </div>
+
+
+       
+  
 </body>
 </html>
