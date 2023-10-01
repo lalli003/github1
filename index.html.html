@@ -5,82 +5,284 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-    *{
-        padding: 0;
-        margin: 0;
-    }
-    body{
-        background-color: rgb(91, 92, 109);
-    }
-    .b1{
+        *{
+            padding: 0%;
+            margin: 0;
+        }
+        body{
+            background-color: black;
+            background-image: url();
+            background-repeat: no-repeat;
+            background-size:120% ;
+border-radius: 20px;
+        }
+        .image{
+        }
+        h1{
+            color: #fff;
+font-family:  Roboto,HelveticaNeue,Arial,sans-serif;
+font-size: 60px;
+font-style: italic;
+        }
+        
+        
+
+        h2{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: italic;
+font-size: 40px;
+color: #fff;
+
+        }
+        section{
+           
+        }
+        
+            
+        
+        .div{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            margin-top: 10%;
+        }
+        .image{
+            margin-left: 20%;
+            height: 50vh;
+            width: 30%;
+        }
+        .count{
+            animation-name: animate;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+
+        } @keyframes animate{
+            from{
+                transform: translateY(90deg);
+                opacity: 0;
+            }
+            to{
+                transform: translateY(0deg);
+            }
+        }
+       
+        
+        .h2{ animation-name: animate;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+
+        }header{
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100%;
+            display: flex;
+            z-index: 1000;
+            justify-content: space-between;
+            transition: 0.5s;
+        }
+        .nav{
+            display: flex;
+            column-gap: 5rem;
+            color: #701717;
+            margin-right: 2%;
+            margin-top: 3%;
+            font-size: 30px;
+            transition: 0.5s;
+            font-weight: 800px;
+
+        }
+        .nav a{
+            font-weight: 800px;
+
+            color: #fff;
+
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .nav a:hover {
+color: rgb(22, 109, 131);
+        }
+        .L{
+            color: brown;
+        }
+        .A{
+            color: deepskyblue;
+        } 
+        .o{
+            color: rgb(238, 212, 65);
+        } 
+        .I{
+            color: rgb(75, 201, 64);
+        } 
+        .T{
+            color: rgb(221, 121, 199);
+        } 
+        .H{
+            color: #fff;
+        }
+        .z{
+            color: rgb(101, 151, 43);
+        }
+       .bt{
         font-size: 30px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-weight:500;
-        margin-top: 2%;
-        margin-left: 3%;
-        width: 150px;
-        height: 50px;
-        border-radius: 10px;
-        color:#614747;
+        font-family:sans-serif;
+        background-color: rgb(115, 204, 204);
+        border-radius: 15px;
+        width: 7%;
+        margin-left: 4%;
 
         transition-property: transform;
         transition-duration: 0.4s;
         transition: all 0.4s;
         
-
-
-    }
-    .b1:hover{
-background-color:  rgb(87, 87, 94); 
+       } 
+       .bt:hover{
+        background-color:  rgb(61, 56, 61); 
 color:#fff;   }
-    .p{
-        float: right;
-        height: 40px;
-        width: 80px;
-        font-size: 20px;
-        border-radius: 10px;
-   }
-    .p:hover{
-        background-color:rgb(163, 133, 154) ;
-        color: #0b2e0d;
-        transition-property: transform;
-        transition-duration: 0.4s;
-        transition: all 0.4s;
-        
-
-    }   
-
-        .square {
-            width: 490px;
-    height: 50vh;
-    background-color: rgb(79, 99, 105);
+       
+       .square{
+        width: 490px;
+    height: 30vh;
+    background-color: rgb(209, 229, 235);
     margin-left: 40%;
     margin-top: 5%;
     box-shadow: 40px;
     border-radius: 20px;
     border: 5px solid rgb(146, 159, 161);
     display: none;
-        }
-        .para{
-            margin-top: 20%;
-            font-size: 25px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
-</style>
+       }
+       .p{
+        float: right;
+        font-size: 20px;
+       }
+       .para{
+        font-size: 40px;
+        margin-left: 2%;
+       }
+.phone{
+    width: 130px;
+    height: 100px;
+}
+.twitter{
+    width: 130px;
+    height: 100px;
+}.mail{
+    width: 130px;
+    height: 100px;
+    margin-left: 2%;
+}
+.oo{
+    width: 500px;
+    height: 15vh;
+    background-color: rgb(209, 229, 235);
+    margin-left: 40%;
+    margin-top: 5%;
+    box-shadow: 40px;
+    border-radius: 20px;
+    border: 5px solid rgb(146, 159, 161);
+    display: none;
+}.tata{
+    float: right;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}.koo{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2%;
+}
+.let{
+    font-size: 30px;
+        font-family:sans-serif;
+        background-color: rgb(115, 204, 204);
+        border-radius: 15px;
+        width: 7%;
+        margin-left: 4%;
 
+        transition-property: transform;
+        transition-duration: 0.4s;
+        transition: all 0.4s;
+        
+}.let:hover{
+    background-color:  rgb(61, 56, 61); 
+color:#fff; 
+ }
+        
+    
+    </style>
+
+    
 </head>
 <body>
-    <button id="btn1" class="b1" onclick="document.getElementById('demo').style.display ='block'" >Click me</button>
+    <header>
+        <img  class="lol" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5EOUS6Dj-IL7-b0IGTsowOtJXt_IzSoVCpA&usqp=CAU">
+
+        <ul class="nav">
+          <li><a href=""class="active">About</a></li>
+          <li><a href="">resume</a></li>
+          <li><a href="">portfolio</a></li>
+          </ul>
+    </header>
+    <div class="div">
+<section>
+    <h1 class="count">
+        <span class="L">L</span>
+        <span class="A">A</span>
+        <span class="o"> L</span>
+        <span class="I">I</span>
+        <span class="T">T</span>
+        <span class="H">H</span>
+        <span class="z">A</span><br>
+    </h1><br>
+    <h2 class="h2">Want to be a web developer</h2>
+
+        </section>  
+        <img class="image"src="https://media.istockphoto.com/id/963858780/vector/human-face-technology.jpg?s=612x612&w=0&k=20&c=cHI0dzG-SLUUjdvb8Gl6C_6Wq93vfjV9mRsKGqq34vY="> 
+        
+            </div>
+            <div class="contact">
+                <div class="ss">
+            
+                    
+                    <button id="btn1" class="bt" onclick="document.getElementById('demo').style.display ='block'" >Hire me</button>
+                   
 
     <div class="square" id="demo">
         <button id="count" class="p" onclick='document.getElementById("demo").style.display = "none" ;
         '>Close </button>
-         <p class="para">Hello<br>There is walk-in drive jobs
-            <br>for freshers, come visit the link for login.</p>
+         <p class="para">contacts:<br><br>
+        
+              <a href=""> <img class="mail" src="https://logowik.com/content/uploads/images/896_envelope.jpg">
+              </a>
+              <a href="" ><img class="phone" src="https://cdn.imgbin.com/14/21/9/imgbin-social-media-icon-social-network-font-awesome-telephone-viber-logo-caller-logo-hqz36H9s0pxuAXFvZR6uPLUFz.jpg"></a></pre>
+              <a href=""><img class="twitter" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAiegPe9hD5nhjSQpkrpBmlyVzhClkHpUIDJSbP_IJAj2jMSv3VYG4NCxz5jm2py5aBxU&usqp=CAU"></a>
+        </p>
         </div>
+                </div>
+            </div><br>
+            
+                <button id="b2" class="let" onclick="document.getElementById('foo').style.display ='block'" >Let's talk</button>
+            
+            <div class="oo" id="foo">
+
+                <button id="cc" class="tata" onclick='document.getElementById("foo").style.display = "none" ;
+                '>Close </button>
+                <p class="koo">Hii,<br>I'm a fresher got a skilled with frontend development and i have my own projects of it's reference.If you have any doubts 
+               about anything you can please contact me. </p>
+            </div>
+            
+
+        </body>
+        </html>
+
+        
+        
 
 
        
-  
-</body>
-</html>
+        
+
+
+
+    
